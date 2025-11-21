@@ -1,0 +1,22 @@
+{
+  "name": "gitlab-fs",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "gitlab-mcp": "./mcp.ts"
+  },
+  "scripts": {
+    "start": "bun run mcp.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/picomatch": "^4.0.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.21.1",
+    "picomatch": "^4.0.3"
+  }
+}
